@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #place .config in its place
-cp -r .config ~/.config
+cp -r .config ~
 
 #install packages
-sudo pacman -S xorg-server i3-wm rofi picom polybar i3blocks i3lock i3status alacritty dmenu pavucontrol fish xdg-user-dirs
+sudo pacman -S xorg-server xorg-xinit i3-wm rofi picom polybar i3blocks i3lock i3status alacritty dmenu pavucontrol fish xdg-user-dirs
 yay -S ttf-iosevka-nerd noto-fonts-emoji
 
 #install rofi theme
