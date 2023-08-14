@@ -9,9 +9,8 @@ yay -S ttf-iosevka-nerd noto-fonts-emoji
 
 #install rofi theme
 git clone https://github.com/lr-tech/rofi-themes-collection.git
-rofi-themes-collection
 mkdir -p ~/.local/share/rofi/themes/
-cp themes/squared-nord.rasi ~/.local/share/rofi/themes/
+cp rofi-themes-collection/themes/squared-nord.rasi ~/.local/share/rofi/themes/
 
 #beautiful background
 mkdir -p $(xdg-user-dir PICTURES)/wallpapers/
