@@ -1,4 +1,4 @@
-exec feh --bg-scale ~/Afbeeldingen/scifi_city.jpg
+exec feh --bg-scale ~/Images/wallpapers/win11.jpg
 gaps inner 16
 smart_gaps on
 exec_always ~/.config/polybar/launch.sh

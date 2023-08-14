@@ -1,6 +1,6 @@
 #!/bin/bash
 cp -r .config ~/.config
-sudo pacman -S xorg-server i3-wm rofi picom polybar i3blocks i3lock i3status alacritty dmenu
+sudo pacman -S xorg-server i3-wm rofi picom polybar i3blocks i3lock i3status alacritty dmenu pavucontrol fish
 yay -S ttf-iosevka-nerd noto-fonts-emoji
 
 git clone https://github.com/lr-tech/rofi-themes-collection.git
