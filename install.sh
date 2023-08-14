@@ -10,6 +10,7 @@ sudo pacman -S xorg-server xorg-xinit i3-wm rofi picom polybar i3blocks i3lock i
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+cd ..
 rm -fr yay
 
 yay -S ttf-iosevka-nerd noto-fonts-emoji
