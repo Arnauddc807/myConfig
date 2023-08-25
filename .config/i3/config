@@ -1,4 +1,4 @@
-exec feh --bg-scale $(xdg-user-dir PICTURES)/wallpapers/win11.jpg
+exec feh --bg-scale /usr/share/backgrounds/win11.jpg
 gaps inner 16
 smart_gaps on
 exec_always ~/.config/polybar/launch.sh
