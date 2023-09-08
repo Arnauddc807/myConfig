@@ -12,6 +12,12 @@ chsh -s /bin/fish
 #enable lightdm
 systemctl enable lightdm.service
 
+#copy greeter cfg file
+cp lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
+
+#set keyboard layout in x11
+localectl --no-convert set-x11-keymap be
+
 #install yay and its packages
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -20,11 +26,6 @@ cd ..
 rm -fr yay
 
 yay -S ttf-iosevka-nerd noto-fonts-emoji
-
-
-#set keyboard layout in x11
-localectl --no-convert set-x11-keymap be
-
 
 #install rofi theme
 git clone https://github.com/lr-tech/rofi-themes-collection.git
