@@ -34,5 +34,5 @@ rm -fr rofi-themes-collection
 
 #beautiful background
 mkdir -p /usr/share/backgrounds
-cp win11.jpg /usr/share/backgrounds
+cp *.jpg /usr/share/backgrounds
 
