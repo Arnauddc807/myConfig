@@ -2,7 +2,7 @@
 
 ## i3wm config files
 
-write `exec i3` in .xinitrc
+should start automatically using lightdm
 
 edit network device name in the network module in `.config/polybar/config.ini`
 
