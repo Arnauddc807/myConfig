@@ -4,7 +4,7 @@
 cp -r .config ~
 
 #install packages
-sudo pacman -S xorg-server xorg-xinit i3-wm rofi rofi-calc rofi-emoji picom polybar i3blocks i3lock i3status alacritty dmenu pavucontrol fish xdg-user-dirs feh playerctl
+sudo pacman -S xorg-server xorg-xinit i3-wm lightdm lightdm-gtk-greeter rofi rofi-calc rofi-emoji picom polybar i3blocks i3lock i3status alacritty dmenu pavucontrol fish xdg-user-dirs feh playerctl
 
 #change shell to fish
 chsh -s /bin/fish
