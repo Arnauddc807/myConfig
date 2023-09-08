@@ -22,6 +22,10 @@ rm -fr yay
 yay -S ttf-iosevka-nerd noto-fonts-emoji
 
 
+#set keyboard layout in x11
+localectl --no-convert set-x11-keymap be
+
+
 #install rofi theme
 git clone https://github.com/lr-tech/rofi-themes-collection.git
 mkdir -p ~/.local/share/rofi/themes/
