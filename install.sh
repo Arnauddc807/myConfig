@@ -9,6 +9,9 @@ sudo pacman -S xorg-server xorg-xinit i3-wm lightdm lightdm-gtk-greeter rofi rof
 #change shell to fish
 chsh -s /bin/fish
 
+#enable lightdm
+systemctl enable lightdm.service
+
 #install yay and its packages
 git clone https://aur.archlinux.org/yay.git
 cd yay
