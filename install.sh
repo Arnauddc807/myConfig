@@ -28,7 +28,7 @@ rm -fr yay
 yay -S ttf-iosevka-nerd noto-fonts-emoji
 
 #install rofi theme
-git clone https://github.com/lr-tech/rofi-themes-collection.git
+git clone https://github.com/newmanls/rofi-themes-collection
 mkdir -p ~/.local/share/rofi/themes/
 cp rofi-themes-collection/themes/squared-nord.rasi ~/.local/share/rofi/themes/
 rm -fr rofi-themes-collection
